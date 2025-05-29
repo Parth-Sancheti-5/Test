@@ -1,0 +1,67 @@
+#Welcome To Blur and Animation.A Module By @CodeSenseiX
+
+# Enable Wide Color Gamut (WCG)
+ro.surface_flinger.has_wide_color_display=true
+vendor.display.color_mode_native=1
+vendor.display.color_mode_dci_p3=1
+vendor.display.color_mode_bt2020=1
+vendor.display.color_mode_srgb=1
+vendor.display.enable_sdr_wcg=1
+vendor.display.force_color_mode_bt2020=1
+vendor.display.force_color_mode_dci_p3=1
+vendor.display.force_color_mode_native=1
+vendor.display.enable_display_color_boost=1
+
+# Enable Advanced Blur Effects
+ro.surface_flinger.supports_background_blur=1
+ro.surface_flinger.media_panel_bg_blur=1
+ro.sf.blurs_are_expensive=1
+persist.sys.wallpaper.blur=1
+persist.sys.wallpaper.blur_level=3
+persist.sys.wallpaper.blur_radius=25
+persist.sys.wallpaperanimation.enable=true
+
+# Enable Gaussian Blur & UI Smoothing
+ro.oplus.gaussianlevel=3
+ro.oplus.animationlevel=3
+persist.sys.oplus.material_blur_switch=true
+persist.sys.oplus.gaussian_blur_enabled=true
+persist.sys.gaussian_blur_intensity=3
+persist.sys.gaussian_blur_radius=30
+ro.launcher.blur.appLaunch=1
+ro.launcher.blur.recents=1
+ro.launcher.blur.folder=1
+
+# Enable Volume & Notification Panel Blur
+ro.oplus.display.disable.volume_blur=0
+persist.sys.volume.panel_blur=1
+persist.sys.notification.blur=1
+
+# Improve System UI Blur Rendering
+persist.sys.sf.disable_blur_cache=0
+persist.sys.sf.improve_blur_rendering=1
+persist.sys.sf.enable_blur_pipeline=1
+debug.sf.detect_content_changes=1
+
+# Smoother Animations & Rendering
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
+ro.surface_flinger.protected_contents=true
+persist.sys.sf.native_mode=1
+persist.sys.sf.color_mode=10
+
+# Boost GPU Performance for Smooth UI
+debug.hwui.renderer=skiagl
+persist.sys.hwui.use_texture_cache=1
+persist.sys.hwui.disable_vsync=false
+persist.sys.ui.renderThread=1
+persist.sys.sf.renderengine=threaded
+
+# Enhance App Opening & Transition Smoothness
+ro.launcher.blur.transition=1
+persist.sys.oplus.anim_level=1
+Persist.sys.oplus.material_blur_switch=false
+persist.sys.oplus.upgrade_anim_level=2
+ro.launcher.animation.speed=0.8
+persist.sys.transition.animation=0.8
+persist.sys.animations.duration=0.8
+persist.sys.animator.scale=0.8

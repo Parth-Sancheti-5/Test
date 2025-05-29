@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <app_feature name="com.android.settings.move_dc_to_develop"/>
+    <app_feature name="com.android.systemui.support.show_charging_wattage"/>
+    <!-- battery:smart charge -->
+    <app_feature name="com.oplus.battery.smart.charge.mode" args="int:2"/>
+    <app_feature name="com.oplus.gesture.intelligent_perception"/>
+    
+    <unavailable_app_feature name="com.android.launcher.LAUNCH_APP_QUICK_SPEED" />
+    <app_feature name="com.android.launcher.LAUNCH_APP_MODERATE_SPEED"/>
+    <app_feature name="oplus.software.support_blockable_animation"/>
+    <app_feature name="com.android.software.live_wallpaper"/>  
+    <app_feature name="com.android.launcher.CAMERA_PREOPEN_CLOSE"/>
+
+    <app_feature name="com.oplus.bootreg.disable_market_page"/>
+    
+    <<app_feature name="com.android.launcher.folder_content_recommend_disable"/>
+    <app_feature name="com.android.launcher.rm_disable_folder_footer_ad"/>
+    <app_feature name="oplus.software.vibration_custom"/>
+    
+    <!-- Add the feature of minimum memory support -->
+    <app_feature name="com.android.launcher.minimum_memory_support" args="boolean:true"/>
+</extend_features>

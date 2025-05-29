@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- control the current model is a high-end machine -->
+    <app_feature name="com.android.launcher.DEVICE_LEVEL_HIGH"/>
+    <!-- YiLi@Apps.Launcher, 2024/07/12: Add feature for auto add search widget. -->
+    <app_feature name="com.android.launcher.widget.auto_add_search"/>
+    <!-- apply new vibration when we going to recents -->
+    <app_feature name="com.android.launcher.NEW_RECENTS_VIBRATION"/> 
+</extend_features>

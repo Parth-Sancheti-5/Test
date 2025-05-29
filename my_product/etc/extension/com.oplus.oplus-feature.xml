@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+    <oplus-feature name="oplus.software.pctelephone.support"/>
+	<oplus-feature name="oplus.software.pcconnect.support"/>
+    <oplus-feature name="oplus.software.support_blockable_animation"/>
+	<oplus-feature name="oplus.software.wallpaper_animation"/>
+	<oplus-feature name="oplus.software.zoom_wallpaper"/>
+	<oplus-feature name="oplus.software.support_fluid_entry"/>
+	<oplus-feature name="oplus.software.view.spring_over_scroller"/>
+	<oplus-feature name="oplus.software.fluid_replace_ntf"/>
+	<oplus-feature name="oplus.software.view.rgbnormalize"/>
+	<oplus-feature name="oplus.software.game_engine_vibrator_v1.support"/>
+	<oplus-feature name="oplus.software.uxicon_exp_square_icon"/>
+	<oplus-feature name="oplus.software.screenon_before_special_action_open_camera"/>
+	<oplus-feature name="oplus.software.radio.data_eval4"/>
+	<oplus-feature name="oplus.software.radio.nwpower_amc"/>
+	<oplus-feature name="oplus.software.radio.nwpower_amc_oossearch"/>
+	<oplus-feature name="oplus.software.radio.nwpower_amc_lowmpss_recovery"/>
+    <oplus-feature name="oplus.software.smart_loop_drag"/>
+</oplus-config>
+<!-- Timestamp 2024-11-08T15:03:41 #263444 -->
